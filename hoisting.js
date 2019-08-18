@@ -3,18 +3,19 @@ function callMe() {
   console.log("and this is crazy..");
   console.log("but here's my number..");
   console.log("so call me");
-  return lyric;
   var lyric = "maybe";
+  return lyric;
 }
 
 
 function crazy() {
   // fix the code in here:
-  thisIsCrazy();
-
-  var thisIsCrazy = function (){
+  thisIsCrazy(); // we can't hoist FUNCTION at the top
+  var thisIsCrazy;
+   thisIsCrazy = function (){
     console.log("hey!!!")
   }
+  
 }
 
 function sayMyName() {
@@ -25,6 +26,6 @@ function sayMyName() {
 
   function sayMy() {
     console.log(name);
-    var name = "Kristin";
+    name = "Kristin"; // this should resassing
   }
 }
