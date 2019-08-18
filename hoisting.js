@@ -10,12 +10,11 @@ function callMe() {
 
 function crazy() {
   // fix the code in here:
-  
   var thisIsCrazy;
    thisIsCrazy = function (){
     console.log("hey!!!")
   }
-  
+  thisIsCrazy(); // we can't hoist FUNCTION at the top
 }
 
 function sayMyName() {
