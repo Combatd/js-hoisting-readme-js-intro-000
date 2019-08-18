@@ -26,9 +26,9 @@ function sayMyName() {
 
   sayMy();
 
-  function sayMy() {
-    console.log(name);
+  function sayMy() { // inner functions auto hoisted to top
     var name;
     name = "Kristin";
+    console.log(name);
   }
 }
