@@ -1,5 +1,5 @@
 function callMe() {
-  var lyric;
+  var lyric; // hoisting
   lyric = "maybe";
   
   console.log("I just met you...");
