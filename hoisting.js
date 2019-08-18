@@ -29,6 +29,6 @@ function sayMyName() {
   function sayMy() {
     console.log(name);
     var name;
-    name = "Kristin"; // this should resassing
+    name = "Kristin";
   }
 }
