@@ -24,7 +24,6 @@ function sayMyName() {
   // fix the code in here:
   var name = "Cricky";
 
-  
   function sayMy() { // inner functions auto hoisted to top
     var name;
     name = "Kristin";
